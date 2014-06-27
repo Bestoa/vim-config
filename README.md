@@ -1,5 +1,13 @@
-Vim_Config
+Vim\_Config
 ==========
 
 Vim config and plugin files.
-Put "source ~/.vim/vimrc.local" in ~/.vimrc.
+
+Please put `source ~/.vim/vimrc.local` in `~/.vimrc`.
+
+Plugin lists:
+> commentary.vim  
+> gtags.vim  
+> SearchComplete.vim  
+> supertab.vim  
+> taglist.vim  
