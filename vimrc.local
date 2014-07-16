@@ -12,6 +12,7 @@ set showcmd
 set nowrap
 set magic
 set hidden
+set nocompatible
 
 set autoindent
 set cindent
