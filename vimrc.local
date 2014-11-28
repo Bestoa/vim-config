@@ -29,6 +29,7 @@ set wildmenu
 set wildmode=full
 
 colorscheme desert
+set guifont=Consolas:h14
 
 let Tlist_Exit_OnlyWindow=1
 
