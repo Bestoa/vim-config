@@ -5,7 +5,6 @@ endif
 if has("autocmd")
     filetype plugin indent on
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-    autocmd BufWritePre * sil %s/\s\+$//e
 endif
 
 set number
@@ -33,3 +32,4 @@ let Tlist_Exit_OnlyWindow=1
 set fileencodings=ucs-bom,utf-8,gb2312,gb18030,big5,latin1
 
 nmap <F2> :Tlist<CR>
+nmap <F3> :%s/\s\+$//e<CR>
