@@ -1,3 +1,12 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab
+[submodule "bundle/searchcomplete"]
+	path = bundle/searchcomplete
+	url = https://github.com/vim-scripts/SearchComplete

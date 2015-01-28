@@ -5,8 +5,11 @@ Vim config and plugin files.
 
 Please put `source ~/.vim/vimrc.local` in `~/.vimrc`.
 
+Use submodule to manage the plugin
+
 Plugin lists:
-> commentary.vim  
-> SearchComplete.vim  
-> supertab.vim  
-> taglist.vim  
+> pathogen
+> SearchComplete
+> supertab
+> taglist
+> mustache
