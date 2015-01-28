@@ -3,7 +3,7 @@ vim\_config
 
 Vim config and plugin files.
 
-Please put `source ~/.vim/vimrc.local` in `~/.vimrc`.
+Please put `source ~/.vim/vimrc.local` in `~/.vimrc and execute "git submodule update --init --recursive" in ".vim".
 
 Use submodule to manage the plugin
 
