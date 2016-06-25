@@ -17,3 +17,7 @@ Plugin lists:
 > supertab
 > taglist
 > mustache
+
+Dependence:
+    ctags
+    cscope

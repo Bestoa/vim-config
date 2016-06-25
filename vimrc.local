@@ -7,6 +7,10 @@ if has("autocmd")
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
+if filereadable("cscope.out")
+    cs add cscope.out
+endif
+
 set number
 set showcmd
 set nowrap
