@@ -3,6 +3,8 @@ vim\_config
 
 Vim config and plugin files.
 
+THIS ONLY WORKS ON LINUX!!!
+
 Setup:
 
 1. Enter vim\_config
