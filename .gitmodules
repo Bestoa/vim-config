@@ -9,7 +9,7 @@
 	url = https://github.com/ervandew/supertab
 [submodule "bundle/searchcomplete"]
 	path = bundle/searchcomplete
-	url = https://github.com/vim-scripts/SearchComplete
+	url = https://github.com/Bestoa/SearchComplete.git
 [submodule "bundle/DrawIt"]
 	path = bundle/DrawIt
 	url = https://github.com/vim-scripts/DrawIt.git
