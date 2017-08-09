@@ -19,8 +19,8 @@ Plugin lists:
 > supertab
 > taglist
 > mustache
-> DrawIt
 > vim-gradle
+> vim-airline
 
 Dependence:
     ctags

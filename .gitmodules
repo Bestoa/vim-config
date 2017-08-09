@@ -10,9 +10,9 @@
 [submodule "bundle/searchcomplete"]
 	path = bundle/searchcomplete
 	url = https://github.com/Bestoa/SearchComplete.git
-[submodule "bundle/DrawIt"]
-	path = bundle/DrawIt
-	url = https://github.com/vim-scripts/DrawIt.git
 [submodule "bundle/vim-gradle"]
 	path = bundle/vim-gradle
 	url = https://github.com/tfnico/vim-gradle.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
