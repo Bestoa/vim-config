@@ -1,4 +1,4 @@
-vim\_config
+vim-config
 ==========
 
 Vim config and plugin files.
