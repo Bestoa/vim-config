@@ -38,8 +38,8 @@ let Tlist_Exit_OnlyWindow=1
 
 set fileencodings=ucs-bom,utf-8,gb2312,gb18030,big5,latin1
 
-nmap <F2> :Tlist<CR>
-nmap <F3> :%s/\s\+$//e<CR>
+nnoremap <F2> :Tlist<CR>
+nnoremap <F3> :%s/\s\+$//e<CR>
 
 " For pathogen
 execute pathogen#infect()
