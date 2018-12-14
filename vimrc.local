@@ -34,6 +34,8 @@ set listchars=tab:>-
 set wildmenu
 set wildmode=full
 
+set updatetime=100
+
 set guifont=Consolas:h14
 
 let Tlist_Exit_OnlyWindow=1
