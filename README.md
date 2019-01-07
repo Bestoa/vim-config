@@ -3,27 +3,26 @@ vim-config
 
 Vim config and plugin files.
 
-THIS ONLY WORKS ON LINUX!!!
 
 Setup:
 ```
 1. Enter vim-config
 2. ./setup.sh
-3. cd ~
+3. Start vim and input ":PlugInstall" to install plugins.
 ```
 
-Use submodule to manage the plugin
+Use vim-plug to manage the plugin
 
 Plugin lists:
 ```
-> pathogen
-> supertab
 > taglist
-> mustache
-> vim-gradle
+> supertab
+> SearchComplete
 > vim-airline
+> vim-gitgutter
+> jedi-vim
 ```
 
 Dependence:
     ctags
-    cscope
+

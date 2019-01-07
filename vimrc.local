@@ -45,5 +45,12 @@ set fileencodings=ucs-bom,utf-8,gb2312,gb18030,big5,latin1
 nnoremap <F2> :Tlist<CR>
 nnoremap <F3> :%s/\s\+$//e<CR>
 
-" For pathogen
-execute pathogen#infect()
+" For vim-plug
+call plug#begin()
+Plug 'vim-scripts/taglist.vim'
+Plug 'ervandew/supertab'
+Plug 'Bestoa/SearchComplete'
+Plug 'vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'davidhalter/jedi-vim'
+call plug#end()
