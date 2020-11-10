@@ -30,6 +30,7 @@ set shiftwidth=4
 set expandtab
 set list
 set listchars=tab:>-
+set tags=tags;
 
 set wildmenu
 set wildmode=full
